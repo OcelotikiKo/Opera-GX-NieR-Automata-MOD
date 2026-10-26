@@ -1,0 +1,12 @@
+void mainImage(out vec4 fragColor, in vec2 fragCoord) {
+    vec2 uv = fragCoord / iResolution.xy;
+    vec3 col = texture(iChannel0, uv).rgb;
+
+    float brightness = dot(col, vec3(0.333));
+
+    vec3 lightColor = vec3(1.0, 1.0, 0.9);
+    vec3 darkColor = vec3(0.2, 0.2, 0.1);
+
+    vec3 result = mix(darkColor, lightColor, brightness);
+    fragColor = vec4(result, 1.0);
+}
