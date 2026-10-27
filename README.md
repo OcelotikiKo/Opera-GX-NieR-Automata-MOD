@@ -8,8 +8,6 @@ An unofficial, fan-made Opera GX mod featuring 2B, animated visuals, and music f
 
 [**Install from GX Store**](https://store.gx.me/ru/mods/9r58tz/nier-automata/)
 
-![NieR: Automata animated wallpaper preview](assets/preview.jpg)
-
 <sub>Created by <strong>OcelotikiKo Studio</strong></sub>
 
 </div>
